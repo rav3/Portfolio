@@ -1,0 +1,42 @@
+iframe
+	width 100%
+
+#videos
+	overflow-y none
+	overflow-x hidden !important
+	max-height 500px
+	border-left 1px solid lighten(hexBlack, 25%)
+	//background-color darken(hexBlack, 20%)
+	img
+		width auto
+		vertical-align top
+	li:last-child .video-singles
+		border-bottom 0
+	+below(sm)
+		border-left none
+		max-height 200px
+		
+
+.video-singles
+	padding-top 10px
+	padding-bottom 10px
+	padding-left 10px
+	padding-right 10px
+	border-bottom 0px solid lighten(hexBlack, 35%)
+	margin-left 30px
+	margin-right 10px
+	cursor pointer
+	.active &
+		background-color darken(hexYellow, 20%)
+	&:hover
+		background-color hexWebGrey1
+		
+		
+	
+.video-wrapper
+	//background-color darken(hexBlack, 10%)
+	padding 0px
+	//border 1px solid lighten(hexBlack, 15%)
+		
+#iplayer
+	margin-bottom 10px

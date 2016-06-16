@@ -1,0 +1,380 @@
+
+/* line 286 : /Users/lt/Desktop/Projects/Portfolio/src/css/style.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 177 : /Users/lt/Desktop/Projects/Portfolio/node_modules/grunt-contrib-stylus/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+
+/* line 21 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_swatches.styl */
+
+/* line 33 : /Users/lt/Desktop/Projects/Portfolio/src/css/_swatches.styl */
+
+/* line 3 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+
+/* line 78 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/index.styl */
+
+/* line 17 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/index.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_settings.styl */
+
+/* line 11 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_settings.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_functions.styl */
+
+/* line 64 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_functions.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+
+/* line 177 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+/**
+ *
+ * All animations must live in their own file
+ * in the animations directory and be included
+ * here.
+ *
+ */
+/**
+ * Styles shared by multiple animations
+ */
+/**
+ * Dots
+ */
+@-webkit-keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+  45% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0.7; }
+
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; } }
+@keyframes scale {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; }
+
+  45% {
+    -webkit-transform: scale(0.1);
+            transform: scale(0.1);
+    opacity: 0.7; }
+
+  80% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1; } }
+
+.ball-pulse > div:nth-child(0) {
+  -webkit-animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(1) {
+  -webkit-animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.12s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(2) {
+  -webkit-animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.24s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div:nth-child(3) {
+  -webkit-animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08);
+          animation: scale 0.75s 0.36s infinite cubic-bezier(.2, .68, .18, 1.08); }
+.ball-pulse > div {
+  background-color: #fff;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  margin: 2px;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  display: inline-block; }
+
+/* line 281 : /Users/lt/Desktop/Projects/Portfolio/src/css/loaders.min.css */
+
+/* line 281 : /Users/lt/Desktop/Projects/Portfolio/src/css/_preloader.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_preloader.styl */
+.loader{position:fixed;left:0;top:0;width:100%;height:100%;overflow:visible;background:linear-gradient(to bottom,#333 0%,#000 100%);z-index:100;}
+/* line 11 : /Users/lt/Desktop/Projects/Portfolio/src/css/_preloader.styl */
+.loader .loader-inner{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* line 13 : /Users/lt/Desktop/Projects/Portfolio/src/css/_preloader.styl */
+.loader .loader-inner > div{background:#fdbb30}
+/* line 4 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-family:inherit;font-size:100%;vertical-align:baseline}
+/* line 14 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+body{line-height:1;color:#000;background:#fff}
+/* line 16 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+ol,ul{list-style:none}
+/* line 18 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+table{border-collapse:separate;border-spacing:0;vertical-align:middle}
+/* line 20 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+caption,th,td{text-align:left;font-weight:normal;vertical-align:middle}
+/* line 22 : /Users/lt/Desktop/Projects/Portfolio/src/css/_reset.styl */
+a img{border:none}
+/* line 14 : /Users/lt/Desktop/Projects/Portfolio/src/css/_preloader.styl */
+
+/* line 14 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+html,body{font-smoothing:antialiased;height:100%;}
+/* line 6 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+html.scroll,body.scroll{overflow:hidden;height:100%;width:100%;position:fixed}
+/* line 12 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+body{font-family:'Roboto Mono';line-height:22px;font-size:16px;color:#222;background-color:#000;overflow-x:hidden}
+/* line 20 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.noscroll{overflow:hidden}
+/* line 23 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.scroll{overflow:none !important}
+/* line 26 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+*{box-sizing:border-box}
+/* line 29 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+a{color:#e64c3b;text-decoration:none;}
+/* line 32 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+a:visited{color:#e64c3b}
+/* line 34 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+a:hover{text-decoration:underline}
+/* line 36 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.narrow a{word-break:break-all;word-wrap:break-all}}
+/* line 41 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+img{height:auto;width:inherit;max-width:100%;vertical-align:top;}
+/* line 46 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.title img{margin-top:20px}
+/* line 48 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+img.lazyload,img.lazyloaded,img.lazyautosizes,img.lazyloading{height:auto;width:100%;max-width:100% !important}
+/* line 56 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h1{color:#222;margin-top:0;margin-bottom:10px;font-size:2.2em;line-height:1.24em;font-weight:500;}
+/* line 63 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h1.desc{font-size:1.8em}
+/* line 65 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.blu h1{color:#222}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+h1{font-size:1.6em;line-height:1.1em}}
+/* line 71 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#main h1{color:#e64c3b;height:100%}
+/* line 75 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h2{font-size:1.4em;line-height:1.25em;font-weight:100;margin-top:0;margin-bottom:10px;font-style:italic;}
+/* line 84 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h2.dark{color:#222;margin-bottom:20px}
+/* line 88 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h3{color:#e64c3b;font-weight:500;font-size:1.25em;line-height:1.25em;margin:0 0 10px 0;padding:0;}
+/* line 96 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#experience h3{margin-bottom:5px}
+/* line 99 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h4{color:#222;font-weight:500;font-size:1em;line-height:1em;margin:0 0 10px 0;padding:0;}
+/* line 107 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+
+/* line 108 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#experience h4:before{content:'@ '}
+/* line 113 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+p{color:#eee;line-height:1.7;font-weight:200;margin-top:0;margin-bottom:15px;}
+/* line 121 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#intro p,#experience p{color:#e64c3b;font-weight:500}
+/* line 128 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+strong{font-weight:500}
+/* line 131 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#particles-js{position:absolute;width:100%;height:100%;z-index:0}
+/* line 137 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.title{width:100%;margin-top:40px;}
+/* line 140 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.title h1{text-align:center}
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.content:before{content:"";display:block}
+/* line 5 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.wrapper{width:100%;}
+/* line 7 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.wrapper.foot{height:50px}
+/* line 10 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.container{position:relative;*zoom:1;width:auto;max-width:1270px;float:none;display:block;margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
+/* line 276 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+.container:before,.container:after{content:'';display:table}
+/* line 280 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+.container:after{clear:both}
+/* line 13 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.container.slider{padding-left:0;padding-right:0}
+/* line 17 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group{*zoom:1;}
+/* line 276 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+.group:before,.group:after{content:'';display:table}
+/* line 280 : /Users/lt/Desktop/Projects/Portfolio/node_modules/jeet/stylus/jeet/_grid.styl */
+.group:after{clear:both}
+/* line 19 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group.flexed{display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-justify-content:space-around;-ms-flex-pack:distribute;justify-content:space-around;-webkit-flex-flow:row no-wrap;-ms-flex-flow:row no-wrap;flex-flow:row no-wrap}
+/* line 23 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group.intro{-webkit-align-items:center;-ms-flex-align:center;align-items:center}
+/* line 27 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group .item{width:40%;margin:auto;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.group .item{width:80%}}
+/* line 33 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group .item.centerText{text-align:center}
+/* line 35 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group .item.stretch{width:100%}
+/* line 38 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group .item.shorter{width:20%}
+/* line 41 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#experience .group .item{margin:0 10px 0 0;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+#experience .group .item{margin:0 20px 0 0}}
+/* line 47 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.profilePic{margin:0 auto 40px;}
+/* line 49 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.profilePic img{border-radius:100px;width:200px;height:200px}
+/* line 54 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.profilePic:before{background:rgba(230,76,59,0.5)}
+/* line 59 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.rel{position:relative}
+/* line 61 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.abs{position:absolute}
+/* line 63 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.btm{bottom:20px}
+/* line 65 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.right{right:0}
+/* line 68 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.neg{margin-top:-80px;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.neg{margin-top:0}}
+/* line 73 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.center{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+/* line 77 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.divider{position:absolute;width:1px;top:0;left:103%;height:110%;border-left:1px solid #c8c8c8;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.divider{width:100%;height:1px;left:0;top:125%;border-top:1px solid #c8c8c8}}
+/* line 93 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block{padding:40px 0}
+/* line 96 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img{width:auto;}
+/* line 98 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img.block1{margin-top:-50px;margin-left:-50px;zoom:1;position:relative;max-width:130%;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.block-img.block1{margin-top:0;margin-left:0;max-width:100%}}
+/* line 108 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img.block3{margin-top:-90px;margin-left:0}
+/* line 111 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img.block2{width:inherit}@media only screen and (max-width:720px){
+/* line 116 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.sm-hide{display:none !important}
+/* line 118 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
+/* line 119 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img.block3{margin:0}
+/* line 121 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.btn{width:100%}}@media only screen and (max-width:950px){
+/* line 124 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.bb-hide{display:none}}
+/* line 127 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
+/* line 128 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#main .container{widht:100vw;height:100vh}
+/* line 132 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.title{width:100%;margin-top:40px;}
+/* line 135 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.title h1{text-align:center;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.title h1{font-size:3em;margin:0}}
+/* line 140 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.title span{margin-right:5px}
+/* line 143 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.showOnMobile{display:none;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.showOnMobile{display:block}}
+/* line 148 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.showOnDesktop{display:block;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.showOnDesktop{display:none}}
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#intro{background-color:#fff}
+/* line 4 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#experience{background-color:#eee}
+/* line 7 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#attend,.gradient2{background:linear-gradient(to bottom,#333 0%,#000 100%);}
+/* line 16 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#find,.blu{background:#91a6c6;background-color:#91a6c6}
+/* line 21 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#resources,.grey{background:#ededec;background-color:#ededec;}
+/* line 26 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#resources h1,.grey h1,#resources h3,.grey h3{color:#222}
+/* line 29 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#more,.drkgrey{background:#222;background-color:#222}
+/* line 34 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+
+/* line 35 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+.bg-fixed:before{min-height:500px;content:'';display:block;background-repeat:no-repeat;background-position:50% 0;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.bg-fixed:before{background-position:50% 0}}
+/* line 44 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+
+/* line 45 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+.bgactive:before{background-position:50% 50px;background-attachment:fixed;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.bgactive:before{background-position:50% 0;background-attachment:scroll !important}}
+/* line 52 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+
+/* line 53 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+.bg-know:before{background-image:url("../img/know1440x700.jpg");background-color:#000;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.bg-know:before{background-size:cover;height:200px;min-height:200px}}
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+ol{list-style-type:none;margin-left:25px;}
+/* line 4 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+ol> li{margin-bottom:10px;padding:0 0 0 5px;position:relative;}
+/* line 9 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+ol> li:before{font-family:'icon';content:"\e5c8";padding:0;border-radius:50%;color:#222;position:absolute;line-height:1;width:10px;height:10px;text-align:center;left:-25px;top:7px;font-size:100%}
+/* line 26 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+.list-links{padding-left:0;list-style:none;margin:0;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.list-links{font-size:.9em}}
+/* line 32 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+.list-links > li{display:inline;}
+/* line 34 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+.list-links > li + li:before{content:"·";padding:0 5px;}
+/* line 37 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+.share.list-links > li + li:before{padding:0 2px;content:""}
+/* line 40 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+.share.list-links > li{vertical-align:top}
+/* line 33 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_swatches.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_swatches.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+@font-face{font-family:'icon';src:url("../fonts/icomoon.eot");src:url("../fonts/icomoon.eot?#iefix") format('embedded-opentype'),url("../fonts/icomoon.woff") format('woff'),url("../fonts/icomoon.ttf") format('truetype'),url("../fonts/icomoon.svgf#icomoon") format('svg');font-weight:normal;font-style:normal}
+/* line 12 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+[class^="icon-"],[class*=" icon-"]{font-family:'icon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+/* line 26 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-arrow_forward:before{content:"\e5c8"}
+/* line 30 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-card_travel:before{content:"\e8f8"}
+/* line 34 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-palette:before{content:"\e40a"}
+/* line 38 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-instagram:before{content:"\ea92"}
+/* line 42 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-linkedin2:before{content:"\eaca"}

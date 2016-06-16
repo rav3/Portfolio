@@ -1,0 +1,141 @@
+html
+body
+	font-smoothing antialiased
+	height 100%
+	
+	&.scroll
+		overflow hidden
+		height 100%
+		width 100%
+		position fixed
+
+body
+	font-family: 'Roboto Mono'
+	line-height 22px
+	font-size 16px
+	color hexBlack
+	background-color #000000
+	overflow-x hidden
+
+.noscroll
+	overflow hidden
+
+.scroll
+	overflow none !important
+	
+*
+	box-sizing border-box
+	
+a
+	color hexOrange
+	text-decoration none
+	&:visited
+		color hexOrange
+	&:hover
+		text-decoration underline
+	.narrow &
+		+below(sm)
+			word-break break-all
+			word-wrap break-all
+
+img
+	height auto
+	width: inherit;
+	max-width 100%
+	vertical-align top
+	.title &
+		margin-top 20px
+	&.lazyload
+	&.lazyloaded
+	&.lazyautosizes
+	&.lazyloading
+		height auto
+		width 100%
+		max-width 100% !important
+
+h1
+	color hexBlack
+	margin-top 0
+	margin-bottom 10px
+	font-size 2.2em
+	line-height 1.24em
+	font-weight 500
+	&.desc
+		font-size 1.8em
+	.blu &
+		color hexBlack
+	+below(sm)
+		font-size 1.6em
+		line-height  1.1em
+	
+	#main &
+		color hexOrange
+		height 100%
+
+h2
+	
+	font-size 1.4em
+	line-height 1.25em
+	font-weight 100
+	margin-top 0
+	margin-bottom 10px
+	font-style italic
+	
+	&.dark
+		color hexBlack
+		margin-bottom 20px
+	
+h3
+	color hexOrange
+	font-weight 500
+	font-size 1.25em
+	line-height 1.25em
+	margin 0 0 10px 0
+	padding 0
+	
+	#experience &
+		margin-bottom 5px
+
+h4
+	color hexBlack
+	font-weight 500
+	font-size 1em
+	line-height 1em
+	margin 0 0 10px 0
+	padding 0
+	
+	#experience &
+		&:before
+			content '@ '
+	
+	
+	
+p
+	//font-size 1em
+	color #eee
+	line-height 1.7
+	font-weight 200
+	margin-top 0
+	margin-bottom 15px
+	
+	#intro &
+		
+	
+	#experience &
+		color hexOrange
+		font-weight 500
+		
+strong 
+	font-weight 500
+
+#particles-js
+	position absolute
+	width 100%
+	height 100%
+	z-index 0
+	
+.title
+	width 100%
+	margin-top 40px
+	h1
+		text-align center
