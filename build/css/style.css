@@ -7,7 +7,7 @@
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 
-/* line 21 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+/* line 22 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_swatches.styl */
 
@@ -170,27 +170,31 @@ h1{font-size:1.6em;line-height:1.1em}}
 h1.reallyHuge{font-size:28em;opacity:.3;letter-spacing:-3px;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 h1.reallyHuge{font-size:20em}}
-/* line 83 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 82 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.title h1{text-align:left}}
+/* line 87 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h2{font-size:1.4em;line-height:1.25em;font-weight:100;margin-top:0;margin-bottom:10px;font-style:italic;}
-/* line 92 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-h2.dark{color:#222;margin-bottom:20px}
 /* line 96 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h2.dark{color:#222;margin-bottom:20px}
+/* line 100 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h3{color:#e64c3b;font-weight:500;font-size:1.25em;line-height:1.25em;margin:0 0 10px 0;padding:0;}
-/* line 104 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 108 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #experience h3{margin-bottom:5px}
-/* line 107 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 111 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h4{color:#222;font-weight:500;font-size:1em;line-height:1em;margin:0 0 10px 0;padding:0;}
-/* line 115 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 119 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 
-/* line 116 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 120 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #experience h4:before{content:'@ '}
-/* line 123 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 127 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 p{color:#eee;line-height:1.7;font-weight:200;margin-top:0;margin-bottom:15px;}
-/* line 131 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 135 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #intro p,#experience p{color:#e64c3b;font-weight:500}
-/* line 138 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 142 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 strong{font-weight:500}
-/* line 141 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 145 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #particles-js{position:absolute;width:100%;height:100%;z-index:0}
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 
@@ -259,44 +263,46 @@ strong{font-weight:500}
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .divider{width:100%;height:1px;left:0;top:125%;border-top:1px solid #c8c8c8}}
 /* line 95 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.block{padding:40px 0}
-/* line 98 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.block-img{width:auto;}
+.block{padding:40px 0;}@media only screen and (max-width:720px){
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
+.block{padding:20px 0}}
 /* line 100 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img{width:auto;}
+/* line 102 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block1{margin-top:-50px;margin-left:-50px;zoom:1;position:relative;max-width:130%;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .block-img.block1{margin-top:0;margin-left:0;max-width:100%}}
-/* line 110 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 112 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block3{margin-top:-90px;margin-left:0}
-/* line 113 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 115 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block2{width:inherit}@media only screen and (max-width:720px){
-/* line 118 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.sm-hide{display:none !important}
 /* line 120 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.sm-hide{display:none !important}
+/* line 122 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 121 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.block-img.block3{margin:0}
 /* line 123 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.block-img.block3{margin:0}
+/* line 125 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .btn{width:100%}}@media only screen and (max-width:950px){
-/* line 126 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 128 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .bb-hide{display:none}}
-/* line 129 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 131 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 130 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 132 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #main .container{widht:100vw;height:100vh}
-/* line 134 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 136 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .title{width:100%;margin-top:40px;}
-/* line 137 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 139 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .title h1{text-align:center;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
-.title h1{font-size:3em;margin:0}}
-/* line 142 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.title span{margin-right:5px}
+.title h1{font-size:3em;margin-left:20px;text-align:left}}
 /* line 145 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.title span{margin-right:5px}
+/* line 148 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .showOnMobile{display:none;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .showOnMobile{display:block}}
-/* line 150 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 153 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .showOnDesktop{display:block;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .showOnDesktop{display:none}}
@@ -305,7 +311,7 @@ strong{font-weight:500}
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
-#intro{background-color:#fff}
+#intro{background-color:#ddd}
 /* line 4 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 #experience{background-color:#eee}
 /* line 7 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
@@ -370,3 +376,9 @@ ol> li:before{font-family:'icon';content:"\e5c8";padding:0;border-radius:50%;col
 .icon-linkedin2:before{content:"\eaca"}
 /* line 46 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
 .icon-school:before{content:"\e80c"}
+/* line 48 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+
+/* line 48 : /Users/lt/Desktop/Projects/Portfolio/src/css/_buttons.styl */
+
+/* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_buttons.styl */
+.btn{display:inline-block;padding:5px 15px;border:1px solid #e64c3b}
