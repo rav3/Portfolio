@@ -124,9 +124,8 @@ module.exports = function(grunt) {
       dist: {
         src: [
         'src/vendors/jquery-1.11.1.min.js',
-        'src/vendors/jquery.nicescroll.min.js',
-        'src/vendors/jquery.zoom.js',
-        'src/vendors/waypoints.min.js',
+
+        'src/vendors/scrollreveal.js',
         'src/vendors/particles.js',
         'src/js/main.js'
         ],

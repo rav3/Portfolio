@@ -1,108 +1,12 @@
-block var
-
 extends ./_layouts/layout.jade
 
-block title
-  title Symantec goes to INTERPOL World 2015
-  
 block content
   .content
-    
-    #main.wrapper.blk
-      .container
-        #particles-js
-        .center
-          h1 Liang tai
-          p 
-            i Singapore based Front End Developer
-
-    #intro.wrapper.blk
-
-      .container
-        
-        .group.block.intro.flexed
-          .item.centerText
-            .profilePic
-              img(src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/07a/388/0d1ce39.jpg")
-            p 
-              span A front end web developer and a user interface designer who focus on writing clean, effective codes and creating beautiful, functional website. 
-
-            p 
-              span Expert in hand-coded HTML, CSS, I keep abreast of new techniques and technologies. Skills include jQuery, jQuery UI, jQuery Mobile, Foundation & Bootstrap.
-            p 
-              span Currently upgrading myself with ECMAScript 6 / Angular 2
-
-
-    #experience.wrapper.blk
-      .container
-        .group.block.flexed
-          .title 
-              h1 #[span.icon-card_travel]
-        .group.block.flexed
-
-          .item.shorter.showOnDesktop
-            p Oct 2014 - Present
-
-          .item
-            p.showOnMobile Oct 2014 - Present
-            h3 Front End Developer / Interactive Designer 
-            h4 Godfrey Q
-            ol
-              li Front end development utilizing HTML5, CSS3, and JavaScript.
-              li Tested front-end code in multiple browsers to ensure cross-browser compatibility.
-              li Maintained brand standards under company guidelines.
-              li Developed web-site mock-ups for clients to ensure quality control and client satisfaction before project development phase.
-              li Experience in Virtual Reality development using Three.js
-
-        .group.block.flexed
-          .item.shorter.showOnDesktop
-            p Feb 2009 - Oct 2014
-          .item
-            p.showOnMobile Feb 2009 - Oct 2014
-            h3 Creative Manager
-            h4 Stone & Archer
-            ol
-              li UI/ UX development for various web applications.
-              li Work closely with entire team to create and maintain the front end code for features of Tanah Merah Country Club website, including backend developers, content creators, and designers.
-              li Use HTML5, CSS/CSS3, JSON, jQuery, Javascript, SASS, Bootstrap/Foundation and Responsive Design.
-
-        .group.block.flexed
-          .item.shorter.showOnDesktop
-            p Dec 2007 - Jan 2009
-
-          .item
-            p.showOnMobile Dec 2007 - Jan 2009
-            h3 3D Visualiser
-            h4 City Design 
-            ol
-              li Oversee renovation projects and create 3D interior renders for construction team.
-
-
-        .group.block.flexed
-          .item.shorter.showOnDesktop
-            p Jan 2007 - Oct 2007
-          .item
-            p.showOnMobile Jan 2007 - Oct 2007
-            h3 Interactive Designer
-            h4 Plastic Soldier Factory
-            ol
-              li  Revamp and develop DP Design website in AS2.
-              li Familiarise with hard coded Flash Actionscript and its best practices.
-
-
-    #portfolio.wrapper.blk
-      .container
-        .group.block.intro
-          .item.centerText
-            .profilePic
-              img(src="http://placehold.it/150x150")
-            p ipsum dolor sit amet, consectetur adipisicing elit. Corporis quia atque voluptates voluptas esse eveniet debitis exercitationem unde quo perferendis vitae necessitatibus magnam maiores, hic commodi non aliquam a rem natus nisi sapiente. Nesciunt sapiente praesentium veniam assumenda facere, consequuntur
-          
-
-
+    include ./_includes/main.jade     
+    include ./_includes/intro.jade
+    include ./_includes/experience.jade
+    include ./_includes/education.jade
+    include ./_includes/footer.jade
    
-            
-block footer
-
   script(src='js/min/main.min.js')
 

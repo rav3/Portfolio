@@ -71,6 +71,14 @@ h1
 	#main &
 		color hexOrange
 		height 100%
+	
+	&.reallyHuge
+		font-size 28em
+		opacity 0.3
+		letter-spacing -3px
+		+below(sm)
+			font-size 20em
+		
 
 h2
 	
@@ -107,6 +115,8 @@ h4
 	#experience &
 		&:before
 			content '@ '
+		
+
 	
 	
 	
@@ -134,8 +144,3 @@ strong
 	height 100%
 	z-index 0
 	
-.title
-	width 100%
-	margin-top 40px
-	h1
-		text-align center

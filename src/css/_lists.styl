@@ -6,6 +6,7 @@ ol
 		margin-bottom 10px
 		padding 0px 0 0 5px
 		position relative
+		font-size 0.75em
 		&:before
 			font-family 'icon'
 			content: "\e5c8";
@@ -21,21 +22,3 @@ ol
 			left -25px
 			top 7px
 			font-size 100%
-			
-
-.list-links
-	padding-left 0
-	list-style none
-	margin 0
-	+below(sm)
-		font-size 0.9em
-	& > li 
-		display inline
-		& + li:before
-			content "·"
-			padding 0 5px
-			.share&
-				padding 0 2px
-				content ""
-		.share&
-			vertical-align top

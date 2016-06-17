@@ -1,11 +1,12 @@
-
-
-
-
 (function() {
-    window.sr = ScrollReveal();
+    window.sr = ScrollReveal({
+    	reset : true,
+    	origin : 'left'
+    });
 	var experienceContainer = document.getElementById('experience');
-	sr.reveal('.group.block.flexed');
+	sr.reveal('.group.block.flexed', 
+		{rotate: {x: 65}
+	});
 
 	   
 
