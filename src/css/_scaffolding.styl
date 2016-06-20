@@ -19,9 +19,12 @@ body
 	overflow-x hidden
 
 .content
+	
 	+above(sm)
-		border 40px solid hexOrange
-		border-bottom 0px
+		border-style solid
+		border-color hexOrange
+		border-width 40px 40px 0px
+		
 
 .noscroll
 	overflow hidden
@@ -66,13 +69,6 @@ h1
 	font-size 2.2em
 	line-height 1.24em
 	font-weight 700
-	&.desc
-		font-size 1.8em
-	.blu &
-		color hexBlack
-	+below(sm)
-		font-size 1.6em
-		line-height  1.1em
 	
 	#main &
 		color hexOrange
