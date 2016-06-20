@@ -123,10 +123,10 @@ module.exports = function(grunt) {
   concat: {
       dist: {
         src: [
-        'src/vendors/jquery-1.11.1.min.js',
-
+        'src/vendors/jquery.js',
         'src/vendors/scrollreveal.js',
         'src/vendors/particles.js',
+        'src/vendors/typed.min.js',
         'src/js/main.js'
         ],
         dest: 'src/js/min/main.min.js',

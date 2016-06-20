@@ -10,12 +10,18 @@ body
 		position fixed
 
 body
-	font-family: 'Roboto Mono'
+	// font-family: 'Roboto Mono'
+	font-family 'Open Sans', sans-serif
 	line-height 22px
 	font-size 16px
-	color hexBlack
-	background-color #000000
+	color white
+	background-color #ddd
 	overflow-x hidden
+
+.content
+	+above(sm)
+		border 40px solid hexOrange
+		border-bottom 0px
 
 .noscroll
 	overflow hidden
@@ -59,7 +65,7 @@ h1
 	margin-bottom 10px
 	font-size 2.2em
 	line-height 1.24em
-	font-weight 500
+	font-weight 700
 	&.desc
 		font-size 1.8em
 	.blu &
@@ -70,7 +76,7 @@ h1
 	
 	#main &
 		color hexOrange
-		height 100%
+		font-size 2.3em
 	
 	&.reallyHuge
 		font-size 28em
@@ -79,9 +85,7 @@ h1
 		+below(sm)
 			font-size 20em
 	
-	.title &
-		+below(sm)
-			text-align left
+	
 		
 
 h2
@@ -99,7 +103,7 @@ h2
 	
 h3
 	color hexOrange
-	font-weight 500
+	font-weight 700
 	font-size 1.25em
 	line-height 1.25em
 	margin 0 0 10px 0
@@ -110,7 +114,7 @@ h3
 
 h4
 	color hexBlack
-	font-weight 500
+	font-weight 700
 	font-size 1em
 	line-height 1em
 	margin 0 0 10px 0
@@ -131,20 +135,36 @@ p
 	font-weight 200
 	margin-top 0
 	margin-bottom 15px
-	
+	#main &
+		color white
 	#intro &
 		
 	
 	#experience &
+	#education &
 		color hexOrange
-		font-weight 500
+		font-weight 700
 		
 strong 
-	font-weight 500
+	font-weight 700
 
 #particles-js
 	position absolute
 	width 100%
 	height 100%
 	z-index 0
+	
+.typed-cursor
+	opacity 1
+	animation blink 0.7s infinite
+    
+@keyframes blink {
+	0% { opacity:1; }
+	50% { opacity:0; }
+	100% { opacity:1; }
+}
+	
+
+
+
 	
