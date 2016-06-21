@@ -7,7 +7,13 @@
 						.title
 							h1 Veritas NBU 7.7
 				a(href="https://vrt.veritas.com/nbuvr/en?dev", target="_blank")
-					img(src="img/portfolio/nbu.jpg")
+					//- img(src="img/portfolio/nbu.jpg")
+					picture
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						source(data-srcset='img/portfolio/nbu.jpg' media='(min-width:720px)')
+						source(data-srcset='img/portfolio/nbu.jpg' media='(min-width:500px)') 
+						<!--[if IE 9]></video><![endif]-->
+						img.lazyload(data-sizes='auto' src='img/portfolio/nbu.jpg')
 			.item.description
 				.center 
 					h1 Veritas NBU 7.7
@@ -22,7 +28,13 @@
 							h1 Where are my monkeys?
 						
 				a(href="https://www.wherearemymonkeys.com/en/", target="_blank")
-					img(src="img/portfolio/monkeys.jpg")
+					//- img(src="img/portfolio/monkeys.jpg")
+					picture
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						source(data-srcset='img/portfolio/monkeys.jpg' media='(min-width:720px)')
+						source(data-srcset='img/portfolio/monkeys.jpg' media='(min-width:500px)') 
+						<!--[if IE 9]></video><![endif]-->
+						img.lazyload(data-sizes='auto' src='img/portfolio/monkeys.jpg')
 
 			.item
 				.overlay
@@ -30,7 +42,13 @@
 						.title
 							h1 Symantec BackupExec 15
 				a(href="https://vrt.veritas.com/be15/en", target="_blank")
-					img(src="img/portfolio/be15.jpg")
+					//- img(src="img/portfolio/be15.jpg")
+					picture
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						source(data-srcset='img/portfolio/be15.jpg' media='(min-width:720px)')
+						source(data-srcset='img/portfolio/be15.jpg' media='(min-width:500px)') 
+						<!--[if IE 9]></video><![endif]-->
+						img.lazyload(data-sizes='auto' src='img/portfolio/be15.jpg')
 
 			.item.description
 				.center 
@@ -46,6 +64,12 @@
 						.title
 							h1 Symantec NBU Benchmark
 				a(href="https://vrt.veritas.com/nbubenchmark/en/", target="_blank")
-					img(src="img/portfolio/ryan.jpg")
+					//- img(src="img/portfolio/ryan.jpg")
+					picture
+						<!--[if IE 9]><video style="display: none;"><![endif]-->
+						source(data-srcset='img/portfolio/ryan.jpg' media='(min-width:720px)')
+						source(data-srcset='img/portfolio/ryan.jpg' media='(min-width:500px)') 
+						<!--[if IE 9]></video><![endif]-->
+						img.lazyload(data-sizes='auto' src='img/portfolio/ryan.jpg')
 
 					
