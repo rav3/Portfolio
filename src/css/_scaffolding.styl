@@ -11,7 +11,8 @@ body
 
 body
 	// font-family: 'Roboto Mono'
-	font-family 'Open Sans', sans-serif
+	font-family 'Roboto Slab', serif
+	// font-family 'Open Sans', sans-serif
 	line-height 22px
 	font-size 16px
 	color white
@@ -19,11 +20,6 @@ body
 	overflow-x hidden
 
 .content
-	
-	+above(sm)
-		border-style solid
-		border-color hexOrange
-		border-width 40px 40px 0px
 		
 
 .noscroll
@@ -49,7 +45,7 @@ a
 
 img
 	height auto
-	width: inherit;
+	width: 100%;
 	max-width 100%
 	vertical-align top
 	.title &
@@ -73,6 +69,10 @@ h1
 	#main &
 		color hexOrange
 		font-size 2.3em
+	#work &
+		color hexOrange
+		font-size 2.3em
+		font-weight 400
 	
 	&.reallyHuge
 		font-size 28em
@@ -119,6 +119,9 @@ h4
 	#experience &
 		&:before
 			content '@ '
+	
+	#intro &
+		color hexOrange
 		
 
 	
@@ -126,14 +129,14 @@ h4
 	
 p
 	//font-size 1em
-	color #eee
+	color hexBlack
 	line-height 1.7
 	font-weight 200
 	margin-top 0
 	margin-bottom 15px
 	#main &
 		color white
-	#intro &
+
 		
 	
 	#experience &
