@@ -20,6 +20,9 @@
 		margin 0
 		width 100%
 		max-width 100%
+	
+	#contact &
+		padding 30px 40px
 
 .group
 	cf()
@@ -67,10 +70,13 @@
 		
 
 		#work &
-			width 50%
+			width 33.33%
 			margin 0
 			.safari &
-				flex 1 0 auto
+				flex 1 0 33%
+				+below(sm)
+					flex 1 1 auto
+					overflow hidden
 			+below(sm)
 				width 100%
 			
@@ -90,7 +96,7 @@
 			margin-bottom 0
 		
 		#reco &
-			width 50%
+			width 80%
 		
 		.innerFlex
 			height 100%
