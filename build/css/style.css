@@ -145,68 +145,76 @@ a:hover{text-decoration:underline}
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .narrow a{word-break:break-all;word-wrap:break-all}}
 /* line 49 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-img{height:auto;width:100%;max-width:100%;vertical-align:top;}
-/* line 54 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-.title img{margin-top:20px}
+#contact a{color:#fff;}
+/* line 51 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#contact a:visited{color:#fff}
+/* line 53 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#contact a:hover{text-decoration:underline}
 /* line 56 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+img{height:auto;width:100%;max-width:100%;vertical-align:top;}
+/* line 61 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+.title img{margin-top:20px}
+/* line 63 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 img.lazyload,img.lazyloaded,img.lazyautosizes,img.lazyloading{height:auto;width:100%;max-width:100% !important}
-/* line 64 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 71 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h1{color:#222;margin-top:0;margin-bottom:10px;font-size:2.2em;line-height:1.24em;font-weight:700;}
-/* line 72 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 79 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #main h1{color:#e64c3b;font-size:2.3em}
-/* line 75 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 82 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #work h1{color:#e64c3b;font-size:1.8em;font-weight:400}
-/* line 80 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 86 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#contact h1{color:#222}
+/* line 89 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h1.reallyHuge{font-size:28em;opacity:.3;letter-spacing:-3px;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 h1.reallyHuge{font-size:20em}}
-/* line 90 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 99 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h2{color:#e64c3b;font-size:1.4em;line-height:1.25em;font-weight:100;margin-top:0;margin-bottom:4px;}
-/* line 98 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 107 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h2.dark{color:#222;margin-bottom:20px}
-/* line 102 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 111 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 h3{color:#e64c3b;font-weight:700;font-size:1.25em;line-height:1.25em;margin:0 0 10px 0;padding:0;}
-/* line 110 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 119 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #experience h3{margin-bottom:5px}
-/* line 113 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-h4{color:#222;font-weight:700;font-size:1em;line-height:1em;margin:0 0 10px 0;padding:0;}
-/* line 121 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-
 /* line 122 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+h4{color:#222;font-weight:700;font-size:1em;line-height:1em;margin:0 0 10px 0;padding:0;}
+/* line 130 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+
+/* line 131 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #experience h4:before{content:'@ '}
-/* line 125 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 134 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #intro h4{color:#e64c3b}
-/* line 132 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 141 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 p{color:#222;line-height:1.7;font-weight:200;margin-top:0;margin-bottom:15px;}
-/* line 139 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 148 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #main p{color:#fff}
-/* line 144 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 153 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #experience p,#education p{color:#e64c3b;font-weight:700}
-/* line 149 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 158 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 nav p{margin:0}
-/* line 152 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-strong{font-weight:700}
-/* line 155 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-#particles-js{position:absolute;width:100%;height:100%;z-index:0}
 /* line 161 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+strong{font-weight:700}
+/* line 164 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+#particles-js{position:absolute;width:100%;height:100%;z-index:0}
+/* line 170 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 .typed-cursor{opacity:1;-webkit-animation:blink .7s infinite;animation:blink .7s infinite}
-/* line 165 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-/* line 165 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 174 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 174 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 @-webkit-keyframes blink{
-/* line 166 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 175 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 0%{opacity:1}
-/* line 167 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 176 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 50%{opacity:0}
-/* line 168 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 177 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 100%{opacity:1}}
-/* line 165 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-/* line 165 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 174 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 174 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 @keyframes blink{
-/* line 166 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 175 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 0%{opacity:1}
-/* line 167 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 176 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 50%{opacity:0}
-/* line 168 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
+/* line 177 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 100%{opacity:1}}
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 
@@ -397,14 +405,14 @@ nav{position:fixed;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit
 /* line 6 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 #work{background-color:#fff}
 /* line 9 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
-#experience,#contact{background-color:#eee}
+#experience{background-color:#eee}
 /* line 13 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 #education{background-color:#fff}
 /* line 16 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
-#footer{background-color:#e64c3b}
-/* line 18 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
+#footer,#contact{background-color:#e64c3b}
+/* line 19 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 
-/* line 18 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
+/* line 19 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_lists.styl */
 ol{list-style-type:none;margin-left:25px;}
@@ -429,20 +437,22 @@ ol> li:before{font-family:'icon';content:"\e5c8";padding:0;border-radius:50%;col
 /* line 12 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
 [class^="icon-"],[class*=" icon-"]{font-family:'icon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
 /* line 26 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
-.icon-arrow_forward:before{content:"\e5c8"}
-/* line 30 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
 .icon-card_travel:before{content:"\e8f8"}
-/* line 34 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
-.icon-palette:before{content:"\e40a"}
-/* line 38 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
-.icon-instagram:before{content:"\ea92"}
-/* line 42 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
-.icon-linkedin2:before{content:"\eaca"}
-/* line 46 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+/* line 30 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-arrow_forward:before{content:"\e5c8"}
+/* line 35 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-instagram:before{content:"\f16d"}
+/* line 39 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-linkedin:before{content:"\f0e1"}
+/* line 43 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
 .icon-school:before{content:"\e80c"}
-/* line 48 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+/* line 47 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-quote-left:before{content:"\f10d"}
+/* line 51 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
+.icon-quote-right:before{content:"\f10e"}
+/* line 53 : /Users/lt/Desktop/Projects/Portfolio/src/css/_glyphs.styl */
 
-/* line 48 : /Users/lt/Desktop/Projects/Portfolio/src/css/_buttons.styl */
+/* line 53 : /Users/lt/Desktop/Projects/Portfolio/src/css/_buttons.styl */
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_buttons.styl */
 .btn{display:inline-block;padding:5px 15px;border:1px solid #e64c3b}
