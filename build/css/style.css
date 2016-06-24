@@ -161,7 +161,7 @@ h1{color:#222;margin-top:0;margin-bottom:10px;font-size:2.2em;line-height:1.24em
 /* line 79 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #main h1{color:#e64c3b;font-size:2.3em}
 /* line 82 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
-#work h1{color:#e64c3b;font-size:1.8em;font-weight:400}
+#work h1{color:#e64c3b;font-size:1.2em;font-weight:400}
 /* line 86 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
 #contact h1{color:#222}
 /* line 89 : /Users/lt/Desktop/Projects/Portfolio/src/css/_scaffolding.styl */
@@ -263,137 +263,145 @@ nav{position:fixed;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit
 /* line 38 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .group.intro{-webkit-align-items:flex-start;-ms-flex-align:start;align-items:flex-start}
 /* line 42 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group.border-bottom{border-bottom:1px solid #e64c3b}
+/* line 45 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .group .item{width:40%;margin:auto;-webkit-perspective:800px;perspective:800px;position:relative;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .group .item{width:80%}}
-/* line 51 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 54 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .group .item.centerText{text-align:center}
-/* line 53 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.group .item.stretch{width:100%}
 /* line 56 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.group .item.shorter{width:20%}
+.group .item.stretch{width:100%}
 /* line 59 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.group .item.shorter{width:20%}
+/* line 62 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .group .item.profilePic{width:100%;margin-bottom:40px;text-align:center}
-/* line 64 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 67 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 66 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 69 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .safari .group .item.description{display:none}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .group .item.description{display:none}}
-/* line 72 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-#work .group .item{width:33.33%;margin:0;}
 /* line 75 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#work .group .item{width:33.33%;margin:0;overflow:hidden;}
+/* line 79 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .safari #work .group .item{-webkit-flex:1 0 33%;-ms-flex:1 0 33%;flex:1 0 33%;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .safari #work .group .item{-webkit-flex:1 1 auto;-ms-flex:1 1 auto;flex:1 1 auto;overflow:hidden}}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 #work .group .item{width:100%}}
-/* line 83 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 87 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 @media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 #work .group .item img{-webkit-filter:none;filter:none}}
-/* line 88 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 92 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #experience .group .item,#education .group .item{margin:0 10px 0 0;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 #experience .group .item,#education .group .item{margin:0 20px 0 0}}
-/* line 94 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-#intro .group .item{margin-top:0;margin-bottom:0}
 /* line 98 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#intro .group .item{margin-top:0;margin-bottom:0}
+/* line 102 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #reco .group .item{width:80%}
-/* line 101 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 105 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .group .item .innerFlex{height:100%}
-/* line 104 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 108 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .profilePic{margin-bottom:40px !important;}
-/* line 107 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 111 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .profilePic img{border-radius:100px;width:200px;height:200px}
-/* line 112 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 116 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .profilePic:before{background:rgba(230,76,59,0.5)}
-/* line 117 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.rel{position:relative}
-/* line 119 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.abs{position:absolute}
 /* line 121 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.btm{bottom:20px}
+.rel{position:relative}
 /* line 123 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.abs{position:absolute}
+/* line 125 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.btm{bottom:20px}
+/* line 127 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .right{right:0}
-/* line 126 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 130 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .neg{margin-top:-80px;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .neg{margin-top:0}}
-/* line 131 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.center{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
 /* line 135 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.center{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+/* line 139 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .divider{position:absolute;width:1px;top:0;left:103%;height:110%;border-left:1px solid #c8c8c8;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .divider{width:100%;height:1px;left:0;top:125%;border-top:1px solid #c8c8c8}}
-/* line 151 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 155 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block{padding:40px 0;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .block{padding:20px 0}}
-/* line 156 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 160 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #work .block{padding:0}
-/* line 159 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 163 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #footer .block{padding:20px 0}
-/* line 162 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 166 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img{width:auto;}
-/* line 164 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 168 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block1{margin-top:-50px;margin-left:-50px;zoom:1;position:relative;max-width:130%;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .block-img.block1{margin-top:0;margin-left:0;max-width:100%}}
-/* line 174 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 178 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block3{margin-top:-90px;margin-left:0}
-/* line 177 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 181 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block2{width:inherit}@media only screen and (max-width:720px){
-/* line 182 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 186 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .sm-hide{display:none !important}
-/* line 184 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 188 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 185 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 189 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .block-img.block3{margin:0}
-/* line 187 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 191 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .btn{width:100%}}@media only screen and (max-width:950px){
-/* line 190 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.bb-hide{display:none}}
-/* line 193 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-
 /* line 194 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-#main .container{width:100vw;height:100vh}
-/* line 198 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.bb-hide{display:none}}
+/* line 197 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 199 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-#footer .footerIcon{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+/* line 198 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#main .container{width:100vw;height:100vh}
+/* line 202 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
 /* line 203 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+#footer .footerIcon{position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%)}
+/* line 207 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .title{width:100%;margin-top:40px;}
-/* line 206 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 210 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .title h1{text-align:center;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .title h1{font-size:3em;margin-left:20px;text-align:left}}
-/* line 212 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 216 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .title span{margin-right:5px}
-/* line 215 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 219 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 #intro .title{margin:0}
-/* line 218 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 222 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .hide{visibiity:hidden}
-/* line 221 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 225 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .top{z-index:100}
-/* line 223 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 227 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .showOnMobile{display:none;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .showOnMobile{display:block}}
-/* line 228 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 232 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .showOnDesktop{display:block;}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
 .showOnDesktop{display:none}}
-/* line 235 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.overlay{background-color:rgba(26,26,26,0.8);display:none;position:absolute;width:100%;height:100%;z-index:100;}@media only screen and (max-width:720px){
+/* line 239 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.overlay{background-color:#1a1a1a;display:block;position:absolute;width:100%;height:60px;z-index:100;bottom:-60px;}
+/* line 248 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.overlay .title{margin:0;position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* line 251 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.overlay .title h1{text-align:right;padding-right:20px}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
-.overlay{display:block}
-/* line 244 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.overlay{background-color:rgba(26,26,26,0.8);display:block;height:100%}
+/* line 258 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .overlay a{display:block;width:100%;height:100%;}
-/* line 249 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
-.overlay a .title{margin:0;position:absolute;-webkit-transform-style:preserve-3d;transform-style:preserve-3d;top:50%;left:50%;-webkit-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
-/* line 252 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 263 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+
+/* line 265 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .overlay a .title h1{font-size:2em !important;text-align:center;margin:0 20px 0}}
+/* line 271 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.grayscale{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
@@ -401,7 +409,7 @@ nav{position:fixed;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 #main{background-color:#333}
 /* line 4 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
-#intro{background-color:#eee}
+#intro{background:linear-gradient(to bottom,#e2e2e2 0%,#fefefe 100%)}
 /* line 6 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */
 #work{background-color:#fff}
 /* line 9 : /Users/lt/Desktop/Projects/Portfolio/src/css/_backgrounds.styl */

@@ -28,7 +28,7 @@ module.exports = function(grunt) {
       },
       scripts: {
         cwd: 'src',
-        src: [ '**/*.{js,json}' ],
+        src: [ '**/*.js' ],
         dest: 'build',
         expand: true
       },
@@ -127,6 +127,7 @@ module.exports = function(grunt) {
         'src/vendors/scrollreveal.js',
         'src/vendors/particles.js',
         'src/vendors/typed.min.js',
+        'src/vendors/TweenMax.js',
         'src/js/main.js'
         ],
         dest: 'src/js/min/main.min.js',
