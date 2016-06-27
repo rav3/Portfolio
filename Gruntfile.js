@@ -123,6 +123,7 @@ module.exports = function(grunt) {
   concat: {
       dist: {
         src: [
+        'src/vendors/profile.js',
         'src/vendors/jquery.js',
         'src/vendors/scrollreveal.js',
         'src/vendors/particles.js',

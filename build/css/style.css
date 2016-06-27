@@ -393,14 +393,14 @@ nav{position:fixed;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit
 /* line 251 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .overlay .title h1{text-align:right;padding-right:20px}@media only screen and (max-width:720px){
 /* line 115 : /Users/lt/Desktop/Projects/Portfolio/node_modules/rupture/rupture/index.styl */
-.overlay{background-color:rgba(26,26,26,0.8);display:block;height:100%}
-/* line 258 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+.overlay{background-color:rgba(26,26,26,0.8);display:block;height:100%;bottom:0}
+/* line 259 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .overlay a{display:block;width:100%;height:100%;}
-/* line 263 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 264 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
-/* line 265 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 266 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .overlay a .title h1{font-size:2em !important;text-align:center;margin:0 20px 0}}
-/* line 271 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
+/* line 272 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 .grayscale{-webkit-filter:grayscale(100%);filter:grayscale(100%)}
 /* line 1 : /Users/lt/Desktop/Projects/Portfolio/src/css/_grid.styl */
 
