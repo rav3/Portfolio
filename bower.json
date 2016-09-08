@@ -1,0 +1,21 @@
+{
+  "name": "Mobile",
+  "description": "Starter package for SCM sites",
+  "main": "index.js",
+  "authors": [
+    "GQ"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/rav3/Portfolio",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jeet": "^6.1.4",
+    "rupture-by-jenius": "^0.6.1"
+  }
+}

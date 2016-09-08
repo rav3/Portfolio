@@ -1,11 +1,8 @@
 (function() {
-
-
-
     window.sr = ScrollReveal();
-	var experienceContainer = document.getElementById('experience');
-	sr.reveal('.group.block.flexed .item');
-
+    var experienceContainer = document.getElementById('experience');
+    sr.reveal('.group.block.flexed .item');
+    
 	particlesJS.load('particles-js', 'assets/particles.json', function() {
 	    console.log('callback - particles.js config loaded');
 	});
@@ -19,28 +16,19 @@
         loopCount: false, // number of loops, false = infinite
     });
 
+	
+	$('#work .item').hover(
+		
+    	function(){
+    		console.log("hover")
+    		$(this.children[1].children[0].children[2]).removeClass('grayscale')
+    		TweenMax.to($(this.children[0]),0.3,{css:{bottom:"0px"},ease:Quad.easeOut});
+    	},function(){
+    		$(this.children[1].children[0].children[2]).addClass('grayscale')
+    		TweenMax.to($(this.children[0]),0.3,{css:{bottom:"-60px"},ease:Quad.easeOut});
+    	}
+    );
 
-	$(window).resize(
-		function(){
-			
-			if($(window).innerWidth() < 720){
-				return
-			}
-
-			if($(window).innerWidth() >= 720){
-				console.log('big')
-				$('#work .item').hover(
-			    	function(){
-			    		$(this.children[1].children[0].children[2]).removeClass('grayscale')
-			    		TweenMax.to($(this.children[0]),0.3,{css:{bottom:"0px"},ease:Quad.easeOut});
-			    	},function(){
-			    		$(this.children[1].children[0].children[2]).addClass('grayscale')
-			    		TweenMax.to($(this.children[0]),0.3,{css:{bottom:"-60px"},ease:Quad.easeOut});
-			    	}
-			    );
-			}
-		}
-	)
 
     
 

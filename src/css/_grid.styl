@@ -1,3 +1,6 @@
+textcenter()
+	text-align center
+
 .content:before
 	content ""
 	display block
@@ -52,7 +55,7 @@
 			width 80%
 		
 		&.centerText
-			text-align center
+			textcenter()
 		&.stretch
 			width 100%
 		
@@ -62,7 +65,7 @@
 		&.profilePic
 			width 100%
 			margin-bottom 40px
-			text-align center
+			textcenter()
 		
 		&.description
 			
@@ -207,8 +210,10 @@
 .title
 	width 100%
 	margin-top 40px
+	textcenter()
+	
 	h1
-		text-align center
+		textcenter()
 		+below(sm)
 			font-size 3em
 			margin-left 20px
@@ -265,7 +270,7 @@
 				
 				h1
 					font-size 2em !important
-					text-align center
+					textcenter()
 					margin 0 20px 0
 
 // add class

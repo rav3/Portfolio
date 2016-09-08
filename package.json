@@ -18,9 +18,9 @@
     "grunt-contrib-copy": "^0.7.0",
     "grunt-contrib-cssmin": "^0.10.0",
     "grunt-contrib-htmlmin": "^0.4.0",
-    "grunt-contrib-imagemin": "^0.9.3",
+    "grunt-contrib-imagemin": "1.0.0",
     "grunt-contrib-jade": "^0.13.0",
-    "grunt-contrib-stylus": "^0.20.0",
+    "grunt-contrib-stylus": "^1.2.0",
     "grunt-contrib-uglify": "^0.8.0",
     "grunt-contrib-watch": "^0.6.1",
     "grunt-critical": "0.0.3",
@@ -29,7 +29,7 @@
     "grunt-svgstore": "^0.5.0",
     "grunt-uncss": "^0.3.7",
     "gsap": "^1.18.5",
-    "jeet": "^6.1.2",
+    "jeet": "=6.1.2",
     "jquery": "^3.0.0",
     "jquery-zoom": "^1.7.13",
     "load-grunt-tasks": "^0.6.0",
@@ -39,7 +39,8 @@
     "rupture": "^0.4.0",
     "scrollreveal": "^3.1.4",
     "smoothstate": "^0.7.2",
-    "vivus": "^0.3.1"
+    "vivus": "^0.3.1",
+    "vinyl-fs": "2.3.1"
   },
   "scripts": {
     "build": "grunt build",

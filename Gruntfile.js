@@ -68,6 +68,9 @@ module.exports = function(grunt) {
           require('rupture'),
           require('jeet')
           ],
+          // paths:[
+          //   '/node_modules/jeet/stylus'
+          // ],
           compress: true
         },
         files: [{
@@ -197,6 +200,6 @@ module.exports = function(grunt) {
 });
 
   // Task(s).
-  grunt.registerTask('dev', [ 'clean:build','concat','uglify','imagemin','copy:build', 'jade', 'stylus:build','connect:dev', 'watch' ]);
+  grunt.registerTask('dev', [ 'clean:build','concat','imagemin','copy:build', 'jade', 'stylus:build','connect:dev', 'watch' ]);
   grunt.registerTask('crit',['critical'])
 };
